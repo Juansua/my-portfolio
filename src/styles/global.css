@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+html {
+  font-family: "Epilogue";
+  background-color: #191d21;
+  scroll-behavior: smooth;
+}
+
+header {
+  font-family: "Roboto", sans-serif;
+}
+
+@media (max-width: 1250px) {
+  header {
+    display: none;
+  }
+}
